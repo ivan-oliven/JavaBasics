@@ -1,0 +1,23 @@
+package aula32;
+
+/*
+ * Author: Ivan de Oliveira
+Feature: Basic Java Training
+Course: Loiane Groner 
+Reference: loiane.training
+ * 
+ * */
+
+public class TesteCarro {
+
+	public static void main(String[] args) {
+		
+		Carro van = new Carro();
+		
+		van.setMarca("Fiat");
+		
+		System.out.println(van.getMarca());
+
+	}
+
+}
